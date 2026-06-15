@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Soundy</string>
+
+    <string name="login_title">Inicio de sesión</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="btn_go_to_register">Registrarse</string>
+
+    <string name="signup_title">Registro de usuario</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <string name="soundboard_title">Soundy</string>
+    <string name="welcome_user">Bienvenido, %1$s</string>
+    <string name="last_buttons_title">Últimos botones guardados</string>
+    <string name="empty_buttons">Aún no hay botones guardados.</string>
+    <string name="btn_edit_buttons">Editar botones</string>
+    <string name="btn_add_button">Agregar botón</string>
+    <string name="btn_enter_edit_mode">Editar botón</string>
+    <string name="btn_cancel_edit">Cancelar edición</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="delete_cross">X</string>
+
+    <string name="add_button_title">Agregar botón</string>
+    <string name="hint_button_name">Nombre del botón</string>
+    <string name="sound_file_label">Archivo de sonido que reproduce</string>
+    <string name="no_sound_selected">No se ha seleccionado ningún archivo.</string>
+    <string name="selected_sound">Archivo seleccionado: %1$s (%2$d s)</string>
+    <string name="btn_choose_sound">Seleccionar archivo de sonido</string>
+    <string name="btn_save">Guardar</string>
+
+    <string name="dialog_delete_title">Eliminar botón</string>
+    <string name="dialog_delete_message">¿Quiere eliminar el botón %1$s?</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <string name="msg_complete_login">Escribe usuario y contraseña.</string>
+    <string name="msg_wrong_credentials">Las credenciales no son correctas.</string>
+    <string name="msg_complete_register">Completa usuario y contraseña.</string>
+    <string name="msg_user_exists">Ese usuario ya está registrado.</string>
+    <string name="msg_register_success">Usuario registrado correctamente.</string>
+    <string name="msg_user_not_received">No se recibió el usuario.</string>
+    <string name="msg_sound_not_found">No se encontró el archivo de sonido.</string>
+    <string name="msg_sound_play_error">No se pudo reproducir el sonido.</string>
+    <string name="msg_duration_not_readable">No se pudo leer la duración del archivo.</string>
+    <string name="msg_sound_too_long">El sonido no puede durar más de 60 segundos.</string>
+    <string name="msg_empty_button_name">Escribe el nombre del botón.</string>
+    <string name="msg_choose_sound">Selecciona un archivo de sonido.</string>
+    <string name="msg_button_saved">Botón guardado correctamente.</string>
+    <string name="msg_button_save_error">No se pudo guardar el botón.</string>
+    <string name="msg_button_deleted">Botón eliminado correctamente.</string>
+</resources>
