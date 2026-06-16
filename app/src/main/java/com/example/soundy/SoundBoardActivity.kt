@@ -170,7 +170,6 @@ class SoundBoardActivity : AppCompatActivity() {
     private fun addNormalSoundButton(boton: BotonSonido) {
         val button = Button(this).apply {
             text = boton.nombreBoton
-            var allCaps = false
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
@@ -198,7 +197,6 @@ class SoundBoardActivity : AppCompatActivity() {
 
         val soundButton = Button(this).apply {
             text = boton.nombreBoton
-            var allCaps = false
             layoutParams = LinearLayout.LayoutParams(
                 0,
                 LinearLayout.LayoutParams.WRAP_CONTENT,

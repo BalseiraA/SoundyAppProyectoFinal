@@ -17,7 +17,7 @@ interface UsuarioDao {
 
     @Query("""
         SELECT * FROM usuarios_table
-        WHERE LOWER(nombre) = LOWER(:nombre)
+        WHERE LOWER(nombre) = LOWER(:nombre) 
         AND password = :password
         LIMIT 1
     """)
